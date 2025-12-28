@@ -21,3 +21,8 @@ function addDays(d, n) {
 function startOfWeekMonday(d) {
   const x = new Date(d);
   const day = x.getDay(); //
+const tdNotes = {
+  padding: 6,
+  borderBottom: "1px solid #eee",
+  minWidth: 220,
+};
